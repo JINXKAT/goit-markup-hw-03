@@ -189,12 +189,11 @@ img {
 .section-menu {
     display: flex;
     gap: 24px;
-    margin-top: 99px;
+    padding: 120px 0
 }
 
 .section-item {
     width: calc calc((100% - 72px) / 4);
-    padding: 120px 0;
 }
 
 .section-item-title {
@@ -237,8 +236,7 @@ img {
 }
 
 .team-title {
-    padding-top: 120px;
-    margin-bottom: 72px;
+    padding: 120px 0
 }
 
 .team-menu {
