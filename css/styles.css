@@ -170,6 +170,7 @@ img {
 /* Section 2 */
 .section{
     background-color: #FFFFFF;
+    padding: 120px 0;
 }
 
 .visually-hidden {
@@ -189,11 +190,10 @@ img {
 .section-menu {
     display: flex;
     gap: 24px;
-    padding: 120px 0
 }
 
 .section-item {
-    width: calc calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 
 .section-item-title {
@@ -227,6 +227,7 @@ img {
 /* Section 3 */
 .team {
     background-color: #f4f4fd;
+    padding: 120px 0;
 }
 
 .team-item {
@@ -236,7 +237,7 @@ img {
 }
 
 .team-title {
-    padding: 120px 0
+    margin-bottom: 72px;
 }
 
 .team-menu {
