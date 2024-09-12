@@ -124,11 +124,10 @@ img {
 /* ================ HERO STYLES ================ */
 /* Section 1 */
 .page-main{
-    background-color:#2e2f42;
+    background-color:#fff;
 }
 
 .hero {
-    height: 600px;
     background: #2e2f42;
     padding-top: 188px;
     padding-bottom: 188px;
@@ -141,7 +140,7 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    max-width: 496px;
+    width: 496px;
     margin: auto;
 }
 
@@ -173,6 +172,19 @@ img {
     background-color: #FFFFFF;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 
 .section-menu {
     display: flex;
@@ -181,8 +193,9 @@ img {
 }
 
 .section-item {
-    max-width: 264px;
-    height: 104px;
+    width: calc ((100%-72px)-4);
+    margin-top: 99px;
+    margin-bottom: 120px;
 }
 
 .section-item-title {
@@ -216,23 +229,23 @@ img {
 /* Section 3 */
 .team {
     background-color: #f4f4fd;
-    height: 732px;
 }
 
 .team-item {
     background-color: #FFFFFF;
-    max-width: 264px;
+    width: calc ((100%-72px)-4);
     height: 380px;
 }
 
 .team-title {
     padding-top: 240px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .team-menu {
     display: flex;
-    gap: 32px;
+    gap: 24px;
+    padding-bottom: 120px;
 }
 
 .team-item {
@@ -268,11 +281,13 @@ img {
 /* Section 4 */
 .portfolio {
     background-color: #FFFFFF;
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
 
 .portfolio-title {
-    padding-top: 120px;
-    padding-bottom: 72px;
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
 
 .portfolio-menu {
@@ -280,6 +295,10 @@ img {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+}
+
+.portfolio-list{
+    width: calc ((100%-48px)-3);
 }
 
 .portfolio-card {
@@ -326,7 +345,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    max-width: 264px;
+    width: 264px;
 }
 
 .logo-footer {
