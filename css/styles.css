@@ -233,7 +233,6 @@ img {
 .team-item {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
-    height: 380px;
 }
 
 .team-title {
@@ -252,9 +251,6 @@ img {
     background: #fff;
 }
 
-.team-image {
-    margin-bottom: 32px;
-}
 
 .team-card {
     padding: 32px 0;
@@ -312,12 +308,15 @@ img {
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
     padding: 32px 16px;
-    max-width: 360px;
-    height: 120px;
 }
 
 .portfolio-item-title {
-    margin-bottom: 8px
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .portfolio-name {
@@ -340,8 +339,8 @@ img {
 /* ================ FOOTER STYLES ================ */
 .page-footer{
     background-color:#2e2f42;
-    padding-top: 100px;
     padding-bottom: 100px;
+    padding-top: 100px;
 }
 
 .footer-text {
@@ -354,8 +353,15 @@ img {
 }
 
 .logo-footer {
-    margin-bottom: 16px;
+    font-family: "Raleway", sans-serif; 
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
     display: inline-block;
+    margin-bottom: 16px;
 }
 
 .accent-footer {
